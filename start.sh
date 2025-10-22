@@ -7,4 +7,4 @@ python manage.py migrate
 python manage.py collectstatic --noinput
 
 # Start Gunicorn
-gunicorn drf_task_api.wsgi --bind 0.0.0.0:$PORT
+gunicorn todo_project.wsgi --bind 0.0.0.0:$PORT
